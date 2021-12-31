@@ -153,7 +153,7 @@ ul {
     content:'';
     display:inline-block;
     margin-left:3px;
-    background-color:white;
+    background-color:greenyellow;
     animation-name:blink;
     animation-duration:0.5s;
     animation-iteration-count: infinite;
