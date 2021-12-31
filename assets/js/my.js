@@ -57,7 +57,7 @@ function typeWriter(id, ar) {
     // If full string has been typed, switch to backspace mode.
     } else if (i == aString.length) {
       
-    //   isBackspacing = true; Retirei para que o texto não fique apagando e reescrevendo.
+    //   isBackspacing = true;
       setTimeout(function(){ typeWriter(id, ar); }, speedWait);
       
     }
