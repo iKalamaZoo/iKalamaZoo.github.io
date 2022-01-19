@@ -1,2 +1,2 @@
 # iKalamaZoo.github.io
-Personal WebSite
+Personal GitHub WebSite
