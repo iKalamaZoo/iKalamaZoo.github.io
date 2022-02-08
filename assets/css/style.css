@@ -114,8 +114,68 @@ ul {
     -webkit-transition: all .6s;
     -moz-transition: all .6s;
     transition: all .6s;
-  }
+}
 
+.my-btn-2{ 
+
+    bottom: 20px;
+    left: 50%;
+    z-index: 2;
+    display: block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    font : normal 400 20px/1 'Josefin Sans', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .6s;
+    padding-top: 0px;
+}
+
+.my-btn-2 span:hover {
+    border: 1.6px solid #222;
+}
+      
+.my-btn-2 span:hover::after{
+    border-left: 1.6px solid #222;
+    border-bottom: 1.6px solid #222;
+}
+
+.my-btn-2 span{
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    width: 46px;
+    height: 46px;
+    margin-left: -23px;
+    border: 1.6px solid #7e57c2;
+    border-radius: 100%;
+    box-sizing: border-box;
+
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    transition: all .6s;
+}
+
+.my-btn-2 span::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: '';
+    width: 16px;
+    height: 16px;
+    margin: -12px 0 0 -8px;
+    border-left: 1.6px solid #7e57c2;
+    border-bottom: 1.6px solid #7e57c2;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    transition: all .6s;
+}
+  
 .divShadow{
     box-shadow: 10px -10px #7E57C2;
 }
