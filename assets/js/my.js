@@ -6,8 +6,8 @@ var i = 0,
 
 // Typerwrite text content. Use a pipe to indicate the start of the second line "|".  
 var textArray = [
-  "Hey there! I'm iKalamaZoo|A programmer student from Fortaleza, Ceará, Brazil.", 
-  
+    "Hey there! I'm iKalamaZoo|A programmer student from Fortaleza, Ceará, Brazil.",
+    "I'm also looking for a job...|and would be very thankful if you could help me out!",
 ];
 
 // Speed (in milliseconds) of typing.
@@ -22,11 +22,8 @@ typeWriter("output", textArray);
 function typeWriter(id, ar) {
   var element = $("#" + id),
       aString = ar[a],
-    //   eHeader = element.children("h1"), //Header element
-    //   eParagraph = element.children("p"); //Subheader element
-
       eHeader = $("#header"), //Header element
-      eParagraph = $("#subheader"); //Subheader element
+      eParagraph = element.children("p"); //Subheader element
   
   // Determine if animation should be typing or backspacing
   if (!isBackspacing) {
@@ -57,7 +54,7 @@ function typeWriter(id, ar) {
     // If full string has been typed, switch to backspace mode.
     } else if (i == aString.length) {
       
-    //   isBackspacing = true;
+      isBackspacing = true;
       setTimeout(function(){ typeWriter(id, ar); }, speedWait);
       
     }
