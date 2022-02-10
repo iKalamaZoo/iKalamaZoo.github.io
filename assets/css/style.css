@@ -50,7 +50,7 @@ ul {
     justify-content: center;
     align-items: center;
     height: 100px;
-    width: 100px;
+    width: 110px;
 }
 
 .box{
@@ -177,7 +177,7 @@ ul {
 }
   
 .divShadow{
-    box-shadow: 10px -10px #7E57C2;
+    box-shadow: 0px 0px 25px #222;
 }
 
 .section-skills {
@@ -188,9 +188,7 @@ ul {
 
 .contacts{
     background-color: #7E57C2;
-    height: 30vh;
-
-  
+    height: 30vh;  
 }
 
 /* console efect */
@@ -199,6 +197,11 @@ ul {
     font-family: 'Source Code Pro', monospace;
     color:ghostwhite;
     font-family: Pixelmix;
+    /* background: linear-gradient(90deg, #69ff72, #5d00ff);
+    background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
 }
 
 .output h1 {
@@ -318,6 +321,7 @@ ul {
     position: relative;
     padding: 2em 0;
     margin-top: 0em;
+    /* transform: rotate(30deg) skew(8deg) scale(0.9); */
     /* margin-bottom: 2em; */
   }
 .content-skills {
