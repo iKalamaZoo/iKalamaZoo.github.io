@@ -6233,6 +6233,11 @@ fieldset:disabled .btn {
 }
 .flex-wrap {
  flex-wrap:wrap!important;
+ background: linear-gradient(90deg, #ffc107, #5d00ff);
+ background-clip: border-box;
+ background-clip: border-box;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
 }
 .flex-nowrap {
  flex-wrap:nowrap!important
