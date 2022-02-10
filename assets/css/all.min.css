@@ -19,7 +19,8 @@
  .fa-lg {
   font-size:2.33333em;
   line-height:.75em;
-  vertical-align:-.0667em
+  vertical-align:-.0667;
+  color: #3f4653;
  }
  .fa-xs {
   font-size:.75em
