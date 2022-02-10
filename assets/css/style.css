@@ -198,6 +198,7 @@ ul {
     text-align:center;
     font-family: 'Source Code Pro', monospace;
     color:ghostwhite;
+    font-family: Pixelmix;
 }
 
 .output h1 {
@@ -462,6 +463,7 @@ border-right: 7px solid #333C42;
 .cd-timeline-content p {
     font-size: 16px;
     font-size: 1rem;
+    font-family: Roboto Light;
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     font-size: 14px;
